@@ -1,27 +1,541 @@
-<!DOCTYPE html>
-<html>
- <head>
-   <title>YOUR NAME Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am YOUR NAME!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:YOUREMAIL”>YOUREMAIL</a></li>
-   </ul>
-   </footer>
- </body>
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Avesta Ahmadi Webpage</title> 
+    <link rel="stylesheet"
+        href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= "sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="Styles/style.css"> 
+    <link rel="stylesheet" href="Styles/responsive.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h1 class="logo-heading">Avesta Ahmadi, Ph.D. </h1> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                            Home 
+                        </a> 
+                    </li> 
+
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                            About 
+                        </a> 
+                    </li> 
+
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> 
+                            Portfolio 
+                        </a> 
+                    </li> 
+                    
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#projects"> 
+                            Projects 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                            Contact Me 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+
+
+
+
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <!-- <h3 class="greet-heading">Hello, I'm</h3> --> 
+                <h1 class="hero-heading">Avesta Ahmadi, Ph.D.</h1> 
+                <h4 class="sub-heading"> 
+                    Computational Scientist / Data Scientist / Data-Driven Learning
+                </h4> 
+                <h4 class="sub-heading"> 
+                    with 6+ years experience 
+                </h4> 
+            </div> 
+            <div class="intro-buttons"> 
+                <a href="#contact"><button class="btn common-btn">Contact Me</button></a>
+                <a href="./Files/Ahmadi_Avesta_Resume.pdf" target="_blank"><button class="btn ghost-btn">Get Resume</button></a>
+                <a href="https://www.linkedin.com/in/avesta-ahmadi/" target="_blank"><button class="btn common-btn">Linkedin</button></a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">About Me</h1> 
+            <p class="lead-para"> 
+                I am a computational scientist with 6+ years of experience in mathematical modeling, 
+                inverse modeling, optimization, data-driven learning and machine learning. I am experienced 
+                in descriptive modeling, predictive modeling and prescriptive modeling techniques in a 
+                range of industries. My main focus and interest revolves around applications of learning 
+                techniques on Li-ion battery cell modeling and operation, in order to develop predictive models 
+                for cells and enhance the reliability of estimations. The details of such research projects can be found
+                in <a class="link_text" href="#projects">projects</a> Section. 
+            </p> 
+            <p class="lead-para">  
+                With a Ph.D. in Computational Science & Engineering from McMaster Univeristy,
+                under supervision of <a class="link_text" href="https://ms.mcmaster.ca/~bprotas/" target="_blank"> Dr. Bartosz Protas </a>, 
+                I have developed a strong mathematical background applicable to data-driven learning and inverse modeling 
+                techniques. My interests revolve around data-driven learning, machine learning and optimization in the context of 
+                energy industry and financial markets. 
+                
+            </p> 
+            <p class="technical-skills" >
+                Keywords: Inverse modeling, Optimiation, Dynamical Systems, SINDy, Sparse Identification of Nonlinear Dynamics, 
+                System Identification, Sparse Regression, Regression, Classification, Bayesian Inference, Ill-posed Inverse Models, 
+                Optimal Reconstruction of Constitutive Relations, Optimal Learning of Continious Functions, Adjoint Analysis, Linear Algebra.
+            </p>
+            <p class="technical-skills">
+                technical Skills: Python, MATLAB, R, SQL, Keras, ScikitLearn, TensorFlow, Pandas, Numpy, Matplotlib.
+            </p>
+        </div> 
+        <div class="about-image"> 
+            <img src="Images/avesta.jpg" alt="About Image"> 
+        </div> 
+    </section> 
+
+
+
+
+
+
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio"> 
+        <div class="portfolio-heading"> 
+            <h1 class="my-heading text-center">Featured Portfolio</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            
+
+
+
+
+            <div class="container">
+                <h1>Professional Experience</h1>
+                <div class="experience">
+                    <h2>Computational Scientist</h2>
+                    <h3>GENERAL MOTORS INC. & MCMASTER UNIVERSITY</h3>
+                    <p class="date">September 2018 - September 2024</p>
+                    <p class="date">Ontario, CA</p>
+                    <p>
+                        <ul class="resume-text">
+                            <li>Conducted extensive scientific research related to characterizing the behavior and dynamics of Li-ion cells.</li>
+                            <li>Applied scientific computing and predictive modeling routines to solve intricate computational problems associated 
+                                with dynamical systems.</li>
+                            <li>Applied mathematical modeling, physical modeling, machine learning, inverse modeling, and optimization techniques 
+                                to learn optimal dynamics of a system in the form of either a parametric or non-parameteric function, from data.</li>
+                            <li>Developed time-series models focused on learning and predicting specific dynamics of the system.</li>
+                            <li>Utilized both deterministic and probabilistic optimization techniques for solving inverse problems.</li>
+                            <li>Overcame complex research challenges by employing critical thinking to design creative and innovative solutions, analyzed 
+                                the results of the models to inform insights.</li>
+                        </ul>
+                    </p>
+                    <p class="technical-skills">Technical Skills: Data-Driven Learning, Inverse Modeling, Parameter Estimation, Bayesian Inference, 
+                        Optimization, Numerical Modeling, MATLAB, Optimal Reconstruction of Continuous Functions.</p>
+                </div>
+
+                <div class="experience">
+                    <h2>Data Scientist & Researcher</h2>
+                    <h3>PULSENICS INC.</h3>
+                    <p class="date">January 2022 - January 2023</p>
+                    <p class="date">Ontario, CA</p>
+                    <p>
+                        <ul class="resume-text">
+                            <li>Leveraged data-driven model discovery and system identification techniques to model time-series data by finding an 
+                                optimal parametric form of dynamics governing the system, using the SINDy framework and sparse regression techniques, 
+                                focused on interpretable and scalable dynamic models.</li>
+                                <li>Enhanced the estimations of cell internal behavior using feedback loops and filtering techniques, 
+                                    applicable to prediction and control.</li>
+                            <li>Planned and organized research meetings with Pulsenics’ team and their clients, closely collaborated with the team 
+                                to run experiments on industrial cells and come up with solution approaches that address business objectives of 
+                                their partners, demonstrated adaptability in the fast-paced startup environment by flexibly adjusting research 
+                                directions, voluntarily engaged in new research projects to support the company’s evolving needs, effectively 
+                                communicated the analytics approach, and delivered research progress consistently and efficiently.</li>
+                        </ul>
+                    </p>
+                    <p class="technical-skills">Technical Skills: Interpretable Machine-Learning, Sparse Regression, SINDy, Kalman Filtering, 
+                        Dimensionality Reduction, Principle Component Analysis, Python, Pandas, Numpy, Scipy, Sklearn.</p>
+                </div>
+
+                <div class="experience">
+                    <h2>Research Assistant</h2>
+                    <h3>MCMASTER UNIVERSITY</h3>
+                    <p class="date">September 2018 - September 2020</p>
+                    <p class="date">Ontario, CA</p>
+                    <p>
+                        <ul class="resume-text">
+                            <li>Optimized the pseudo-energy of a system to find lattice structure via Integer Programming and heuristics 
+                                techniques.</li>
+                            <li>Time-series forecasting of stock data based on classical and deep learning models, and outlier detection.</li>
+                        </ul>
+                    </p>
+                    <p class="technical-skills">Technical Skills: Deep learning, Neural Networks, ARIMA, Python, 
+                        Principal Component Regression, TensorFlow, Keras, Integer Programming.
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h2>Teaching Assistant</h2>
+                    <h3>MCMASTER UNIVERSITY</h3>
+                    <p class="date">September 2018 - September 2024</p>
+                    <p class="date">Ontario, CA</p>
+                    <p>
+                        <ul class="resume-text">
+                            <li>Worked as a teaching assistant, mentoring undergraduate mathematics and engineering students.</li>
+                            <li>Mentored Engineering Mathematics III and IV, Applications of Linear Algebra, Calculus courses.</li>
+                            <li>Skills: Transferring Knowledge, Effective Communication Skills, Teaching Skills.</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="experience">
+                    <h2>Senior Wireline Field Engineer</h2>
+                    <h3>SCHLUMBERGER</h3>
+                    <p class="date">July 2016 - July 2018</p>
+                    <p class="date">Iran</p>
+                    <p>
+                        <ul class="resume-text">
+                            <li>Enhanced the revenue of the company by successfully delivering more than 30 Wireline 
+                                jobs to the clients (net value of $100, 000 to $700, 000 each).</li>
+                            <li>Planned and organized Wireline procedures, led a Wireline crew, and effectively 
+                                communicated with clients to ensure seamless execution and high-quality data delivery.</li>
+                            <li>Demonstrated efficiency in executing Wireline jobs in harsh and stressful conditions for extended hours.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div class="container">
+                <h1>Education History</h1>
+                <div class="experience">
+                    <h2>Computational Science & Engineering</h2>
+                    <h3>Ph.D.</h3>
+                    <h3>McMaster University</h3>
+                    <p class="date">September 2020 - September 2024</p>
+                    <p class="date">Ontario, CA</p>
+                    
+                </div>
+                <div class="experience">
+                    <h2>Computational Science & Engineering</h2>
+                    <h3>M.Sc.</h3>
+                    <h3>McMaster University</h3>
+                    <p class="date">September 2018 - September 2020</p>
+                    <p class="date">Ontario, CA</p>
+                    
+                </div>
+                <div class="experience">
+                    <h2>Chemical Engineering</h2>
+                    <h3>B.Eng. </h3>
+                    <h3>Sharif University of Technology</h3>
+                    <p class="date">September 2010 - September 2014</p>
+                    <p class="date">Tehran, Iran</p>
+                </div>
+
+                
+
+                
+            </div>
+
+
+
+
+        </div> 
+    </section> 
+
+    
+
+
+
+    
+
+    <!-- Projects Section -->
+    <section class="services" id="projects"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading text-center">Research Projects</h1> 
+        </div> 
+        <div class="services-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="box">
+                            <div class="column-right">
+                                <h3 class="greet-heading">Data-Driven Approach to Learning Optimal Forms of Constitutive 
+                                    Relations in Models Describing Lithium Plating in Battery Cells</h3>
+                                    <p class="small-para"> 
+                                        In this study we construct a data-driven model describing Lithium plating in a battery cell, 
+                                        which is a key process contributing to degradation of such cells. Starting from the fundamental 
+                                        Doyle-Fuller-Newman (DFN) model, we use asymptotic reduction and spatial averaging techniques 
+                                        to derive a simplified representation to track the temporal evolution of two key concentrations 
+                                        in the system, namely, the total intercalated Lithium on the negative electrode particles and 
+                                        total plated Lithium. This model depends on an a priori unknown ...
+                                    </p>
+                            </div>
+                            <div class="column-left"> 
+                                <div class="icon">
+                                    <img class="icon", src="Images/Plating.png"> 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="li-plating.html"><button class="read-more-btn"> Read More </button></a>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="box">
+                            <div class="column-right">
+                                <h3 class="greet-heading">System Identification, Uncertainty Quantification, and Inference of 
+                                    Constitutive Relations in Electrochemistry</h3>
+                                    <p class="small-para"> 
+                                        This thesis consists of three parts, each part addressing a challenging question as regards mathematical 
+                                        and computational modeling in electrochemistry, with particular applications to Lithium-ion batteries. The 
+                                        first problem concerns the mean-clustering approach to modeling the evolution of lattice dynamics, which 
+                                        finds application in describing the lattice structure of Lithium-ion cathodes. Instead of tracking the state 
+                                        of individual lattice sites, this approach describes the time evolution of the concentrations of different 
+                                        cluster types. It leads to an infinite hierarchy of ordinary differential ... 
+                                    </p> 
+                            </div>
+                            <div class="column-left"> 
+                                <div class="icon">
+                                    <img class="icon", src="Images/Diagram-1.png"> 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="phd-thesis.html"><button class="read-more-btn"> Read More </button></a>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="box">
+                            <div class="column-right">
+                                <h3 class="greet-heading">State-of-Charge Estimation of Cells Under Dynamic Loading Conditions 
+                                    using Identification of Nonlinear Dynamics and Filtering</h3>
+                                    <p class="small-para"> 
+                                        In this problem we investigate the question of the state-of-charge estimation in cells 
+                                        operating under dynamic loading conditions. We use a hybrid data-driven strategy, referred to as 
+                                        “sparse identifi- cation of nonlinear dynamics”, in order to obtain a sparse representation of the 
+                                        dynamics of the system based on a provided library of candidates terms in the evolution equation. 
+                                        This strategy leverages the measurement data acquired using Electrochemical Impedance Spectroscopy ...
+                                    </p> 
+                            </div>
+                            <div class="column-left"> 
+                                <div class="icon">
+                                    <img class="icon", src="Images/sindy_framework.png"> 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="sindy.html"><button class="read-more-btn"> Read More </button></a>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="box">
+                            <div class="column-right">
+                                <h3 class="greet-heading">Data-Driven Optimal Closures for Mean-Cluster Models: 
+                                    Beyond the Classical Pair Approximation</h3>
+                                    <p class="small-para"> 
+                                        This study concerns the mean-clustering approach to modelling the evolution of lattice dynamics. 
+                                        Instead of tracking the state of individual lattice sites, this approach describes the time 
+                                        evolution of the concentrations of different cluster types. It leads to an infinite hierarchy of 
+                                        ordinary differential equations which must be closed by truncation using a so-called closure condition. 
+                                        This condition approximates the concentrations of higher-order clusters in terms of the concentrations 
+                                        of lower-order ones. The pair approximation is the most common form ...
+                                    </p> 
+                            </div>
+                            <div class="column-left"> 
+                                <div class="icon">
+                                    <img class="icon", src="Images/LiNMCO2_1.png"> 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="mean-field.html"><button class="read-more-btn"> Read More </button></a>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="box">
+                            <div class="column-right">
+                                <h3 class="greet-heading">Univariate Time-Series Forecasting of Stock Market Data</h3>
+                                <p class="small-para"> 
+                                    Univariate time series forecasting using classical methods and deep learning approaches have been performed. 
+                                    In this code the results of timeseries forecasting for 12 different datasets have been collected. One-step 
+                                    ahead recursive forecasting have been used on each one of them as a univariate time series forecasting problem. 
+                                    The collected data has been plotted based on metrics used. RMSE (root mean squared error) and 
+                                    MSLE (mean logarithmic squared error) have been used as our metrics for comparison.
+                                </p> 
+                            </div>
+                            <div class="column-left"> 
+                                <div class="icon">
+                                    <img class="icon", src="Images/stock.jpg"> 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="univariate.html"><button class="read-more-btn"> Read More </button></a>
+                    </div> 
+                </div>
+            </div>
+            
+        </div> 
+    </section> 
+
+
+
+
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Details</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <!-- <div class="contact-form-container"> 
+                <h1 class="greet-heading">Get In Touch</h1> 
+                <form class="contact-form"> 
+                    <input class="form-controls" type="text"
+                        placeholder="Your Name"> 
+                    <input class="form-controls" type="text"
+                        placeholder="Your Email"> 
+                    <input class="form-controls" type="text"
+                        placeholder="Your Phone"> 
+                    <textarea class="form-controls"
+                            placeholder="Write your message"
+                            name="message" id="" cols="30"
+                            rows="10"> 
+                    </textarea> 
+                    <input class="form-btn btn common-btn"
+                        type="submit" value="Send Message"> 
+                </form> 
+            </div> -->
+            <div class="contact-details"> 
+                <!-- <h1 class="contact-details">My Contact Details</h1> -->
+                <div class="details"> 
+                    <div class="contact-left">
+                        <h3> EMAIL </h3> 
+                    </div>
+                    <div class="contact-right">
+                        <h4> avesta.ahmd@gmail.com </h4> 
+                    </div> 
+                </div> 
+                <div class="details"> 
+                    <div class="contact-left">
+                        <h3> EMAIL </h3> 
+                    </div>
+                    <div class="contact-right">
+                        <h4> ahmada59@mcmaster.ca </h4> 
+                    </div> 
+                </div> 
+                <div class="details"> 
+                    <div class="contact-left">
+                        <h3> PHONE </h3> 
+                    </div>
+                    <div class="contact-right">
+                        <h4> +1-778-251-9407 </h4> 
+                    </div> 
+                </div> 
+                <div class="details"> 
+                    <div class="contact-left">
+                        <h3> ADDRESS </h3> 
+                    </div>
+                    <div class="contact-right">
+                        <h4> Ontario, CA </h4> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+
+
+
+
+
+
+    
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2024 All rights reserved.
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.linkedin.com/in/avesta-ahmadi/" target="_blank"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li>  
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://github.com/Avesta-Ahmadi" target="_blank"> 
+                                <i class="fab fa-github"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://orcid.org/0000-0002-3210-1178" target="_blank"> 
+                                <i class="fab fa-orcid"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="script.js"></script> 
+</body> 
+
 </html>

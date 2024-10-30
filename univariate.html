@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Time-series </title> 
+    <link rel="stylesheet"
+        href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= "sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="Styles/style.css"> 
+    <link rel="stylesheet" href="Styles/responsive.css"> 
+</head> 
+
+
+
+<body>
+    <section id="univariate" class="about"> 
+        <div class="page-text"> 
+            <h2 class="page-heading"> Univariate Time-Series Forecasting of Stock Market Data </h2> 
+            <p class="lead-paragraph"> 
+                Univariate time series forecasting using classical methods and deep learning approaches have been performed. 
+                In this code the results of timeseries forecasting for 12 different datasets have been collected. One-step 
+                ahead recursive forecasting have been used on each one of them as a univariate time series forecasting problem. 
+                The collected data has been plotted based on metrics used. RMSE (root mean squared error) and 
+                MSLE (mean logarithmic squared error) have been used as our metrics for comparison.
+            </p> 
+            <p class="lead-paragraph"> 
+                List of approaches:
+                <ul>
+                    <li>Multilayar Perceptron (MLP)</li>
+                    <li>Stacked Unidirectional and Bidirectional Long Short Term Memory networks (LSTM)</li>
+                    <li>Recurrent Neural Networks (RNN)</li>
+                    <li>Gated Recurrent Unit (GRU)</li>
+                    <li>Convolution based networks (CNN-LSTM)</li>
+                    <li>Dilated Causal Convolutions (DC-CNN)</li>
+                    <li>SeriesNet</li>
+                    <li>WaveNet</li>
+                </ul>
+            </p> 
+            <p class="lead-paragraph"> 
+                The details of this project and description of each method can be found on the 
+                <a class="link_text" href="https://github.com/Avesta-Ahmadi/Univariate-Time-Series-Forecasting/wiki" target="_blank"> Wiki Page </a>.
+            </p> 
+            <p class="keywords">
+                Keywords: Time-series, Stock Market, SARIMA, ARIMA, Machine Learning
+            </p>
+            <a href="https://github.com/Avesta-Ahmadi/Univariate-Time-Series-Forecasting" target="_blank"><button class="read-more-btn"> Codes on Github</button></a>
+            <a href="https://github.com/Avesta-Ahmadi/Univariate-Time-Series-Forecasting/wiki" target="_blank"><button class="read-more-btn"> Wiki Page </button></a>
+            <a href="./Files/time-series-presentation.pdf" target="_blank"><button class="read-more-btn"> Presentation PDF</button></a>
+            <div>
+                <img class="img-page" src="Images/stock.jpg"> 
+            </div>
+        </div>
+    </section>
+</body>
